@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "read.js",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.344.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "jest-allure-reporter": "^1.2.3",
+    "jest-junit": "^5.2.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.5",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest",
+    "oo": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC"
+}
