@@ -12,6 +12,9 @@ app.get('/api/genero/:nome', (req, res) => {
     if (nome === 'Papini')
         return res.status(200).send({message: 'Homem encontrado com sucesso', reason: 'Homão da porra'});
 
+    if (nome == 'Borel')
+        return res.status(409).send({message: 'Não aceitamos homem com excesso de peso', reason: 'Gordo'});
+
 });
 
 
